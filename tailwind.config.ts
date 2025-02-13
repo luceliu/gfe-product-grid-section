@@ -13,6 +13,10 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    screens: {
+      tablet: "768px",
+      desktop: "1440px",
+    },
   },
   plugins: [],
 } satisfies Config;
